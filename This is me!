@@ -1,0 +1,50 @@
+import webbrowser
+
+f = open('My name is Thy.html','w')
+
+message = """<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> My name is Thy</title>
+
+</head>
+
+<body>
+<p><font size="50">My </font></p>
+<p><font size="50">name</font></p>
+<p><font size="50">is</font></p>
+<p><font size="50">Thy</font></p>
+
+
+
+</body>
+
+
+
+</html>
+
+
+</html>"""
+
+f.write(message)
+f.close()
+
+webbrowser.open_new_tab('My name is Thy.html')
+import turtle
+wn = turtle.Screen()
+mom = turtle.Turtle()
+mom.circle(50)
+mom.penup()
+mom.forward(150)
+mom.pendown()
+mom.circle(50)
+mom.penup()
+mom.backward(175)
+mom.right(90)
+mom.forward(70)
+mom.pendown()
+mom.circle(100)
+wn.exitonclick()
