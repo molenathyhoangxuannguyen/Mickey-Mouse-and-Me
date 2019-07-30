@@ -1,3 +1,5 @@
+#Author: Thy H. Nguyen
+
 import webbrowser
 
 f = open('My name is Thy.html','w')
