@@ -2,7 +2,7 @@
 
 import webbrowser
 
-f = open('My name is Thy.html','w')
+f = open('The invisible html.html','w')
 
 message = """<html>
 
@@ -10,15 +10,16 @@ message = """<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> My name is Thy</title>
+    <title> This is the invisible html file with python turtle.</title>
 
 </head>
 
 <body>
-<p><font size="60">My </font></p>
-<p><font size="60">name </font></p>
+<p><font size="60">This </font></p>
 <p><font size="60">is </font></p>
-<p><font size="60">Thy </font></p>
+<p><font size="60">the </font></p>
+<p><font size="60">invisible </font></p>
+<p><font size="60">html </font></p>
 
 
 
@@ -33,7 +34,7 @@ message = """<html>
 f.write(message)
 f.close()
 
-webbrowser.open_new_tab('My name is Thy.html')
+webbrowser.open_new_tab('The invisible html.html')
 
 import turtle
 wn = turtle.Screen()
