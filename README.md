@@ -4,8 +4,8 @@ My name is Thy H. Nguyen.
 
 https://molenathyhoangxuannguyen.github.io/Mickey-Mouse-and-Me/
 
-## Video Walkthrough
+## Video Demo
 
-Here's a walkthrough of implemented user stories:
+Here's a demo of this repository:
 
 <img src='demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
