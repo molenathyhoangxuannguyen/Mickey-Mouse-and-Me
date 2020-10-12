@@ -1,6 +1,6 @@
 # The invisible .html
 This is a python program using to generate .html files.
-There is no .html file, but the .html file still gets opened through an only .py file.
+There is no .html file, but the .html file still gets opened while the turtle canvas is operating simultaneously through an only .py file.
 
 https://molenathyhoangxuannguyen.github.io/The-invisible-html/
 
