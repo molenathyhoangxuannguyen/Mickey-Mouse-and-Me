@@ -1,7 +1,5 @@
 # Mickey-Mouse-and-Me
 #A quick introduction about me
-#My name is Thy H. Nguyen
-#And I love Mickey Mouse!
+#My name is Thy H. Nguyen.
 
-
-Citation: https://www.quora.com/How-do-I-write-HTML-code-inside-a-Python-file
+https://molenathyhoangxuannguyen.github.io/Mickey-Mouse-and-Me/
