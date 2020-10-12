@@ -10,4 +10,4 @@ Here's a demo of this repository:
 <img src='demo.gif' title='Demo' width='' alt='Demo' />
 
 # What's next?
-Exploring more features of html, css, and javascript opening through an only .py file.
+Exploring more features of html, css, and javascript generating through an only .py file.
