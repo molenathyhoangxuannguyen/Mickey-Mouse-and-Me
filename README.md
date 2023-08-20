@@ -1,4 +1,4 @@
-# The invisible .html
+# The invisible HTML
 
 This is a python program helping with generating .html files. There is no .html file, but the .html file still gets generated and opened while the turtle canvas is operating simultaneously through an only .py file.
 
