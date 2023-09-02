@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+
+	<title>Love Calculator ! Try now</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style>
+		body{
+			background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('https://images.pexels.com/photos/887349/pexels-photo-887349.jpeg');
+			background-repeat:no-repeat;
+			background-size: cover;
+			background-position: center;
+			width:100%;
+			height: 100vh;
+			position: relative;
+		}
+		header{
+			width: 100%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+		*{ margin:0; padding: 0; box-sizing: border-box; 
+  font-family: 'Mukta', sans-serif;
+font-family: 'Merriweather', serif;
+}
+
+	</style>
+</head>
+<body>
+	
+	<header >
+		<div class="card w-50 m-auto text-center">
+  <div class="card-header bg-danger text-white"><h5>LOVE CALCULATOR</h5>
+  			<span>Want To Know How Much Your Partner ❤ Loves You ?</span></div>
+  <div class="card-body ">
+  						<div class="container ">
+				  		<form class="form-inline w-75 m-auto  ">
+				  	<div class="form-group">
+    			<input type="text" name="name" class="form-control text-center" id="name" placeholder="Your Name">
+  				</div>
+  				<div class="pl-4 pr-4 m-auto"><span>+</span></div>
+  				<div class="form-group">
+    			<input type="text" name="lname" class="form-control text-center" id="lname" placeholder="Love Name">
+  				</div>
+				  	
+				  </form>
+
+				  <br>
+				  <div class="w-70 m-auto">
+				  	<button class="btn btn-outline-success w-50 " onclick="checklove()"> Check </button>
+				  </div>
+				   <br>
+				  <div class="form-group">
+				  <input type="text" name="" class="form-control text-center w-50 m-auto" id="love_value" placeholder="Love percentage?">
+				  </div>
+				  </div>
+
+
+
+  </div>
+  <div class="card-footer "><h5>LORD SHIVA BLESS YOU AND YOUR LOVE...</h5>
+  	<p class="text-center">A small project for all of you. Thanks!</p>
+  </div>
+</div>
+
+
+<div class="container pl-4 pr-4 pt-5 m-auto text-center">
+	
+<footer class="w-25 m-auto"><h5  style="color:white;">© 2020 Copyright: Himanshu@2021</h5></footer>
+</div>
+
+
+
+
+
+
+	</header>
+
+
+
+
+<script>
+	function checklove(){
+
+		var name=document.getElementById("name").value;
+
+		var lname=document.getElementById("lname").value;
+
+		if (name=="") {
+			alert("Write your name!");
+		}else if (name.length<3) {
+			alert("Minimum length of name should be 3.");
+		}else if (lname=="") {
+			alert("Write your Lover's name!");
+		}else if (lname.length<3) {
+			alert("Minimum length of name should be 3.");
+		}else{
+				var loveData=Math.random()*100;
+		loveData=Math.floor(loveData);
+		document.getElementById("love_value").value=loveData +"%";
+
+		}
+
+			
+				
+
+		
+	}
+</script>
+</body>
+</html>
